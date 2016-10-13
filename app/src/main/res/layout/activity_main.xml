@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBackGround"
+    tools:context="com.example.herve.squaredemo.ui.home.HomeActivity">
+
+
+    <com.example.herve.squaredemo.widget.SearchView
+        android:id="@+id/serach_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.herve.squaredemo.widget.SearchView>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/serach_view"
+        app:tabSelectedTextColor="@color/select_color"
+        app:tabTextColor="@color/normal_color">
+    </android.support.design.widget.TabLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_layout">
+    </android.support.v4.view.ViewPager>
+
+
+    <Button
+        android:id="@+id/mask_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/iv_text2"
+        android:layout_centerInParent="true"/>
+
+    <com.example.herve.squaredemo.widget.MaskView
+        android:id="@+id/maskView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:hollow_alignParentBottom="false"
+        app:hollow_alignParentRight="false"
+        app:hollow_alpha="0.5"
+        app:hollow_centerHorizontal="false"
+        app:hollow_clear_square="true"
+        app:hollow_height="50dp"
+        app:hollow_margin_left="0dp"
+        app:hollow_margin_right="0dp"
+        app:hollow_margin_top="0dp"
+        app:hollow_mask_color="@color/darkBackGround"
+        app:hollow_mask_orientation="below"
+        app:hollow_src="@drawable/create_tip"
+        app:hollow_width="50dp">
+    </com.example.herve.squaredemo.widget.MaskView>
+
+</RelativeLayout>

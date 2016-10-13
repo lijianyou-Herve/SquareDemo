@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SquareDemo</string>
+    <string name="search_hint">搜索模板(模板名/标签/关键字)</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkBackGround">#181617</color>
+    <color name="darkEdit">#3d3b3c</color>
+
+    <color name="template_green">#212021</color>
+
+    <color name="lifeFragment">#cf0c6d</color>
+    <color name="workFragment">#12a419</color>
+
+    <color name="select_color">#d2b521</color>
+    <color name="normal_color">#ffffff</color>
+</resources>
